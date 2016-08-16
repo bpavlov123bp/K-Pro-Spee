@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?familly=Lato:400, 300, 700, 900");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body{
+    line-height: 1;
+    font: 16px Lato;
+    color: #565565;
+}
+.wrapper
+{
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 739px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+hr
+{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 15px auto;
+    border: none;
+    border-bottom: 1px solid white;
+    width:60%;
+}
+main
+{
+    margin: 0 auto;
+    min-height: inherit;
+    width: 80%;
+    position: relative;
+    float: right;
+}
+header
+{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.site-title
+{
+    width: 150px;
+    font: 54px Oswald;
+    font-weight: 400;
+    margin:0 auto 10px;
+    color: #565565;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 8px solid #019c8c;
+}
+.sidebar
+{
+    float: left;
+    width: 20%;
+    height: 95%;
+    background-color: #06C0AB;
+    color:white;
+    font: 26px Lato;
+    font-weight: normal;
+    text-align: center;
+    top:0;
+    left:0;
+    bottom: 0;
+    position: absolute;
+}
+.image
+{
+    border: solid;
+    color: black;
+}
